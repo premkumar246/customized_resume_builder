@@ -32,7 +32,8 @@ Process:
 
 Cases : 
 1. Just needed a generalized ATS friendly resume. 
-2. Generate a customized ATS friendly resume for a given job description. 
+2. Suggest the needed changes to be done for a general ATS friendly resume and make the changes and give the edited resume for download. 
+3. Generate a customized ATS friendly resume for a given job description. 
     2.1. A Resume for a fresher 
     2.2. A Resume for an experienced candidate 
 
@@ -94,3 +95,72 @@ Building an Applicant Tracking System (ATS) friendly resume involves tailoring y
 
 By following these guidelines, you can create an ATS-friendly resume that effectively showcases your qualifications and increases your chances of passing through automated screening systems.
 
+I am building an application that can take a resume and job description and customize the resume according to the job description and format it 
+in a ATS friendly Resume and provide it as downloadable document. Use streamlit and langchain for building the application
+
+Give me code for 
+
+UI 001 ::
+   Application Title : Best Fit 
+   Description : "Introducing our cutting-edge resume customization application powered by state-of-the-art Language Models (LLMs). Say goodbye to generic resumes that get lost in the Applicant Tracking System (ATS) abyss. Our innovative tool revolutionizes the job application process by seamlessly tailoring resumes to match specific job descriptions. Simply upload your resume and the job description, and watch as our LLMs work their magic to optimize your resume for the highest ATS ranking. With our application, you'll stand out to recruiters and increase your chances of landing interviews. Say hello to personalized career success!"
+   
+   - BT 001 :: UPLOAD
+         UI 002 ::
+         Heading : Upload Resume & A upload option and 
+         
+         - BT 003 :: Improve 
+
+         - BT 004 :: Customize 
+            UI 003 ::
+            Heading : Enter the Job Description & a text box 
+
+            - BT 005 :: Show Summary 
+               UI 004 ::
+               Job Description Summary : Job title, Company name, Industry, Job type, Role summary, Technical Requirements / Hard skills, Soft skills, Responsibilities or Job description, Education & Experience or Qualification, Benefits / facilities , Salary range, Interview rounds 
+
+            - BT 006 :: Customize 
+               UI 005 ::
+               Profile Summary :: User Profile Summary VS AI Profile Summary 
+
+                  - BT 007 :: Next
+                     UI 006 :: 
+                     SKillset :: User skill set VS AI skill set 
+
+                           - BT 008 :: Next 
+                              UI 007 ::
+                              Experience :: user procided experience vs AI experience 
+
+                                 - BT 009 :: Next 
+                                    UI 008 ::
+                                    Projects :: user project description vs ai project description 
+                                 
+                                    - BT 010 :: Next 
+                                       UI 009 ::
+                                       Education :: user education vs ai education 
+
+                                          - BT 011 :: Generate 
+                                             UI 010 :: Download your resume 
+
+
+
+
+
+
+
+
+   - BT 002 :: BUILD 
+      
+      UI 011 ::
+      FORM ::
+      1. FULL NAME 
+      2. Status 
+      3. mail 
+      4. mobile number 
+      5. github 
+      6. linked 
+      7. Location 
+      8. Education 
+         - Degree | Collage name | graduation date | grade 
+      9. Experience 
+         - Title | Company name | dates | Description 
+      10. Projects 

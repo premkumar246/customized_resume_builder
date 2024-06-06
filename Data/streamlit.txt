@@ -1,0 +1,14 @@
+# import statement 
+import streamlit as st 
+
+# to run the streamlit application 
+# run the below code in terminal 
+# gets a empty webpage in local instance 
+str`eamlit run filename.py 
+
+# create a title for the page 
+st.title("Best Fit") 
+st.header("sub header")
+st.subheader("header")
+st.text("text description")
+st.markdown("**Prem Kumar**")
