@@ -1,0 +1,96 @@
+Problem: 
+It's not possible to update the resume for every job application to get high rank in the ATS. 
+This leads to lack of oppurtunitines even you have a decent skill set.
+
+Solution: 
+An apllication that generates a customized Resume as per the job description for every job application.   
+
+inputs: 
+1. A resume / Details for resume.
+2. URL Link of a job description / Job description text.
+
+outputs:
+1. A customized resume. 
+
+metrics: 
+1. Match Score.  
+
+Process: 
+1. User Upload his resume (formatted) or Enter details in the forms. 
+2. Be able to create an general ATS friendly resume downloadable format. 
+3. Paste a URL of job description / paste the Job description itself. 
+4. Now the algorithm converts the word file in to a XML file. 
+5. Scan the text from the Job description and list all the information. 
+6. Scan the text from the resume and list all the inormation. 
+7. Compare the two texts in various aspects and gives a macthing score of the resume and also prints the analysis.  
+8. We pass the Job description text and resume text to the llm. 
+9. Prints summarized higlights of the JD. Prints matching aspects and non matching aspects of the resume and generate a matching score.  
+10. LLM generates new text involving all the keywords phrases by increasing the matching score. 
+11. We do the suggested changes in the resume. 
+12. Return the same XML format and make the word doc available for download. 
+
+
+Cases : 
+1. Just needed a generalized ATS friendly resume. 
+2. Generate a customized ATS friendly resume for a given job description. 
+    2.1. A Resume for a fresher 
+    2.2. A Resume for an experienced candidate 
+
+
+Building an Applicant Tracking System (ATS) friendly resume involves tailoring your document to ensure it can be parsed and understood by automated systems that many employers use to manage job applications. Here's a comprehensive guide covering every aspect of creating an ATS-friendly resume:
+
+1. File Format:
+   - Save your resume in a universally compatible format like .docx (Microsoft Word) or .pdf. These formats are most likely to be readable by ATS software.
+
+2. Document Layout:
+   - Use a clean, simple layout with standard fonts (e.g., Arial, Calibri) and avoid intricate designs or graphics that might confuse the ATS.
+   - Organize your information into clearly defined sections such as Contact Information, Summary or Objective, Work Experience, Education, Skills, and Additional Sections (e.g., Certifications, Volunteer Work).
+
+3. Contact Information:
+   - Include your name, phone number, email address, and optionally your LinkedIn profile URL.
+   - Avoid using headers or footers for contact information as ATS may not always read these sections correctly.
+
+4. Keywords:
+   - Tailor your resume to the job description by including relevant keywords and phrases.
+   - Use industry-specific terminology, skills, and qualifications that match the job posting.
+   - Sprinkle these keywords naturally throughout your resume, especially in the Summary/Objective, Work Experience, and Skills sections.
+
+5. Summary or Objective:
+   - Provide a brief overview of your professional background, highlighting key skills, experiences, and career goals.
+   - Focus on how your qualifications align with the job requirements.
+   - Incorporate relevant keywords from the job description.
+
+6. Work Experience:
+   - List your work experience in reverse chronological order (most recent job first).
+   - Include the company name, job title, dates of employment (month and year), and a brief description of your responsibilities and achievements.
+   - Use bullet points to make your accomplishments and duties easily scannable.
+   - Quantify your achievements whenever possible (e.g., "Increased sales by 20%").
+   - Incorporate keywords from the job description into your job descriptions.
+
+7. Education:
+   - List your educational qualifications in reverse chronological order.
+   - Include the name of the institution, degree obtained, major, and graduation date.
+   - Optionally, include relevant coursework, honors, or academic achievements.
+
+8. Skills:
+   - Create a dedicated section to showcase your relevant skills.
+   - Include both hard skills (e.g., proficiency in specific software, programming languages) and soft skills (e.g., communication, leadership).
+   - Align your skills with the requirements of the job.
+
+9. Formatting Tips:
+   - Use standard section headings (e.g., "Work Experience," "Education") to help ATS identify and categorize information.
+   - Avoid using images, charts, tables, or fancy formatting as these may not be recognized by ATS.
+   - Ensure consistent formatting throughout the document, including font style, size, and spacing.
+
+10. Proofreading:
+    - Thoroughly proofread your resume to eliminate typos, grammatical errors, and inconsistencies.
+    - Use simple, clear language to enhance readability.
+
+11. File Naming:
+    - Rename your resume file with a clear and descriptive title (e.g., "John_Doe_Resume.pdf") to make it easy for recruiters to identify.
+
+12. Customization:
+    - Customize your resume for each job application by adjusting keywords and emphasizing relevant experiences and skills.
+
+By following these guidelines, you can create an ATS-friendly resume that effectively showcases your qualifications and increases your chances of passing through automated screening systems.
+
